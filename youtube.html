@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="https://www.youtube.com/s/desktop/aef0ced3/img/favicon_32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="css/style.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <header>
+        <div class="leftSection">
+            <span class="material-symbols-outlined" id="btnMenu">menu</span>
+            <img src="imgs/logos/logo.png" alt="logo" id="logo">
+        </div>
+        <div class="midSection">
+            <form action="#">
+                <input type="text" placeholder="Search">
+                <button title="Search"><span class="material-symbols-outlined">search</span></button>
+            </form>
+            <button class="btnMic" title="Search with your voice"><span class="material-symbols-outlined mic">mic</span></button>
+        </div>
+        <div class="rightSection">
+            <button class="videoCall topNav" title="Create" data-show="false"><span class="material-symbols-outlined">video_call</span></button>
+                <div class="modal-videoCall" id="modalVideoCall">
+                    <a href="#">
+                        <span class="material-symbols-outlined">Slideshow</span>
+                        <span>Upload video</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Sensors</span>
+                        <span>Go live</span>
+                    </a>
+                </div>
+            
+            <button class="notif topNav" title="Notifications" data-show="false"><span class="material-symbols-outlined">notifications</span></button>
+            <div class="modal-notifications" id="modalNotifications">
+                <div class="head-notif">
+                    <span>Notifications</span>
+                    <a href="#" title="Settings">
+                        <span class="material-symbols-outlined">Settings</span>
+                    </a>
+                </div>
+                <div class="content-notif">
+                    <a href="#">
+                        <span>•</span>
+                        <span></span>
+                        <div>
+                            <span>Build the Fastest Blog Website with Markdown Content | Hugo Static Site Generation Tutorial</span>
+                            <span>11 days ago</span>
+                        </div>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <button class="account topNav" data-show="false"><span class="material-symbols-outlined">account_circle</span></button>
+            <div class="modal-account" id="modalAccount">
+                <div class="head-account">
+                    <a href="#">
+                        <span class="material-symbols-outlined">shield_person</span>
+                        <span>Your data in YouTube</span>
+                    </a>
+                    <a href="#" id="appearance">
+                        <span class="material-symbols-outlined">Nightlight</span>
+                        <span>Appearance: Light</span>
+                        <span class="material-symbols-outlined">Navigate_Next</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Translate</span>
+                        <span>Language: English</span>
+                        <span class="material-symbols-outlined">Navigate_Next</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Admin_Panel_Settings</span>
+                        <span>Restricted Mode: Off</span>
+                        <span class="material-symbols-outlined">Navigate_Next</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Language</span>
+                        <span>Location: Morocco</span>
+                        <span class="material-symbols-outlined">Navigate_Next</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Keyboard_Alt</span>
+                        <span>Keyboard shortcuts</span>
+                    </a>
+                </div>
+                <div class="body-account">
+                    <a href="#">
+                        <span class="material-symbols-outlined">Settings</span>
+                        <span>Settings</span>
+                    </a>
+                </div>
+                <div class="footer-account">
+                    <a href="#">
+                        <span class="material-symbols-outlined">Help</span>
+                        <span>Help</span>
+                    </a>
+                    <a href="#">
+                        <span class="material-symbols-outlined">Feedback</span>
+                        <span>Send feedback</span>
+                    </a>
+                </div>
+            </div>
+            <div class="modal-appearance">
+                <div class="head-appearance">
+                    <button id="ArrowBack"><span class="material-symbols-outlined">Arrow_Back</span></button>
+                    <span>Appearance</span>
+                </div>
+                <div class="body-appearance">
+                    <p>Setting applies to this browser only</p>
+                    <a href="#" class="choose-lighting">
+                        <span class="material-symbols-outlined">Check</span>
+                        <span>Use device theme</span>
+                    </a>
+                    <a href="#" class="choose-lighting">
+                        <span class="material-symbols-outlined">Check</span>
+                        <span>Dark theme</span>
+                    </a>
+                    <a href="#" class="choose-lighting">
+                        <span class="material-symbols-outlined checked">Check</span>
+                        <span>Light theme</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
