@@ -423,3 +423,133 @@ header > .leftSection > span:hover{
 .modal-appearance > .body-appearance > a > span.checked:nth-child(1){
     visibility: visible;
 }
+.contentArea{
+    height: calc(100vh - 56px);
+    display: flex;
+}
+.contentArea >  .aside{
+    height: 100%;
+    width: 280px;
+    padding: 12px;
+    overflow-y: auto;
+    display: block;
+}
+.contentArea >  .aside > nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.contentArea >  .aside > nav > .navLinks{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+}
+.contentArea >  .aside > nav > .navLinks.active,
+.contentArea >  .aside > nav > .navLinks:hover{
+    background-color: #f2f2f2;
+}
+.contentArea >  .aside > nav > .navLinks[title = "Home"] > span.material-symbols-outlined:first-child{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 200,
+    'opsz' 48
+}
+.contentArea >  .aside > nav > .navLinks[title = "Home"] > span:last-child{
+    font-weight: 500;
+}
+.contentArea >  .aside > nav > .navLinks > span:last-child{
+    margin-left: 24px;
+    font-size: 1.4rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: #030303;
+}
+.contentArea > .aside > nav > hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px 0;
+}
+.contentArea >  .aside > nav > .navLinks > div{
+    display: flex;
+    align-items: center;
+}
+.contentArea > .aside > nav > .navLinks > div > span:first-child{
+    color:#0f0f0f;
+    padding-right: 8px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.contentArea > .aside > nav > span{
+    padding: 6px 12px 4px;
+    color: #0f0f0f;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions{
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions + span {
+    width: 115.312px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions.One{
+    background-image: url("/imgs/profiles/profile-pic-1.jpg");
+
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions.Two{
+    background-image: url("/imgs/profiles/profile-pic-2.jpg");
+
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions.Three{
+    background-image: url("/imgs/profiles/profile-pic-3.jpg");
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions.Four{
+    background-image: url("/imgs/profiles/profile-pic-4.jpg");
+}
+.contentArea >  .aside > nav > .navLinks > .subscriptions.Five{
+    background-image: url("/imgs/profiles/profile-pic-5.jpg");
+}
+.contentArea >  .aside > nav > .navLinks[data-hidden="true"]{
+    display: none;
+}
+.contentArea >  .aside > nav > .navLinks[data-hidden="false"]{
+    display: flex;
+}
+.contentArea >  .aside > nav > .navLinks > .youtubeKids{
+    width: 34px;
+    height: 34px;
+    background-image: url("/imgs/logos/logoYoutubeKids.png");
+    background-position: center;
+    background-size: cover ;
+}
+.contentArea > .aside > nav > span.copyright{
+    color: #909090;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.contentArea >  .aside > nav > span.copyright > a{
+    text-decoration: none;
+    color: inherit;
+}
