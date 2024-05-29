@@ -1,0 +1,136 @@
+.dark-mode{
+    background-color: #0f0f0f;
+}
+.dark-mode > header > .leftSection > span{
+    color:#ffffff;
+}
+.dark-mode > header > .leftSection > span:hover{
+    background-color: #272727;
+}
+.dark-mode > header > .midSection > form > input{
+    background-color: inherit;
+    border-color: #303030;
+    color: #ffffff;
+}
+header > .midSection > form > input:focus{
+    border: 1px solid #1c62b9
+}
+.dark-mode > header > .midSection > form > button{
+    background-color: #222222;
+    border-color: #303030;
+    color: #dedede;
+}
+.dark-mode > header > .midSection > .btnMic{
+    background-color: #222222;
+    color: #ffffff;
+}
+.dark-mode header > .midSection > .btnMic:hover {
+    background-color: #272727;
+}
+.dark-mode > header > .rightSection > button > span{
+    color: #ffffff;
+}
+.dark-mode > header > .rightSection > button:not(.account):hover,
+.dark-mode > header > .leftSection > span:hover{
+     background-color: #272727;
+}
+
+.dark-mode > .contentArea >  .aside > nav > .navLinks{
+    color: #ffffff;
+}
+.dark-mode >.contentArea > .aside > nav > .navLinks > span:last-child{
+    color: #ffffff;
+}
+.dark-mode .contentArea > .aside > nav > .navLinks.active, 
+.dark-mode >.contentArea > .aside > nav > .navLinks:hover{
+    background-color: #272727;
+}
+.dark-mode > .contentArea > .aside > nav > .navLinks > div > span:first-child{
+    color:#ffffff;
+}
+.dark-mode > .contentArea > .aside > nav > span{
+    color: #ffffff;
+}
+.dark-mode > .contentArea > .aside > nav > hr{
+    background-color: #3f3f3f;
+}
+.dark-mode > .contentArea > .asideMini  .navLinksMini{
+    color: #ffffff;
+}
+.dark-mode > .contentArea > .asideMini  .navLinksMini.active, 
+.dark-mode >.contentArea > .asideMini  .navLinksMini:hover{
+    background-color: #272727 ;
+}
+.dark-mode > .contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoTitle{
+    color: #ffffff;
+}
+.dark-mode > .contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoCreator, 
+.dark-mode > .contentArea > main > .videosContainer > .video > .videoDetails > .title > span{
+    color: #aaa;
+}
+.dark-mode > .contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoCreator:hover{
+    color: #F1F1F1;
+}
+.dark-mode > header > .rightSection > .modal-videoCall,
+.dark-mode > header > .rightSection > .modal-notifications,
+.dark-mode > header > .rightSection > .modal-account,
+.dark-mode > header > .rightSection > .modal-appearance
+{
+    background-color: #282828;
+}
+.dark-mode > header > .rightSection > .modal-videoCall > a{
+    color: #F1F1F1;
+}
+.dark-mode > header > .rightSection > .modal-videoCall > a:hover{
+    background-color: #3e3e3e;
+}
+.dark-mode > header > .rightSection > .modal-notifications > .head-notif > span{
+    color: #F1F1F1;
+}
+.dark-mode > header > .rightSection  > .modal-notifications > .head-notif > a{
+    color: #ffffff;
+}
+.dark-mode > header > .rightSection > .modal-notifications > .head-notif > a:hover{
+    background-color: #535353;
+}
+.dark-mode > header > .rightSection > .modal-notifications > .content-notif > a >div > span:first-child{
+    color: rgb(241, 241, 241);
+}
+.dark-mode > header > .rightSection > .modal-notifications > .content-notif > a >div > span:last-child{
+    color: rgb(170, 170, 170);
+}
+.dark-mode > header > .rightSection > .modal-notifications > .content-notif > a:hover {
+    background-color: #3e3e3e;
+}
+.dark-mode > header > .rightSection > .modal-account > .head-account > a,
+.dark-mode > header > .rightSection > .modal-account > .body-account > a, 
+.dark-mode > header > .rightSection > .modal-account > .footer-account > a{
+    color: #F1F1F1;
+}
+
+.dark-mode > header > .rightSection > .modal-account > .head-account > a:hover,
+.dark-mode > header > .rightSection > .modal-account > .body-account > a:hover, 
+.dark-mode > header > .rightSection > .modal-account > .footer-account > a:hover{
+    background-color: #3e3e3e;
+}
+.dark-mode > header > .rightSection > .modal-appearance > .head-appearance{
+    border-color: rgb(255 255 255 / 20%);
+}
+.dark-mode > header > .rightSection > .modal-appearance > .head-appearance > span{
+    color: #F1F1F1;
+}
+.dark-mode > header > .rightSection > .modal-appearance > .head-appearance > button{
+    color: #ffffff;
+}
+.dark-mode > header > .rightSection > .modal-appearance > .head-appearance > button:hover{
+    background-color: #3e3e3e;
+}
+.dark-mode > header > .rightSection > .modal-appearance >  .body-appearance > p{
+    color: #AAAAAA;
+}
+.dark-mode > header > .rightSection > .modal-appearance > .body-appearance > a{
+    color: #F1F1F1;
+}
+.dark-mode > header > .rightSection > .modal-appearance > .body-appearance > a:hover{
+    background-color: #3e3e3e;
+}

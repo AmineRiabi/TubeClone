@@ -423,6 +423,7 @@ header > .leftSection > span:hover{
 .modal-appearance > .body-appearance > a > span.checked:nth-child(1){
     visibility: visible;
 }
+
 .contentArea{
     height: calc(100vh - 56px);
     display: flex;
@@ -553,3 +554,222 @@ header > .leftSection > span:hover{
     text-decoration: none;
     color: inherit;
 }
+.contentArea > .asideMini{
+    width: 74px;
+    height: 100%;
+    overflow-y: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: none;
+}
+.contentArea > .asideMini > nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.contentArea > .asideMini  .navLinksMini{
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+    color: black;
+}
+.contentArea > .asideMini  .navLinksMini.active,
+.contentArea > .asideMini  .navLinksMini:hover{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contentArea >  .asideMini  .navLinksMini[title = "Home"] > span.material-symbols-outlined:first-child{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 200,
+    'opsz' 48
+}
+.contentArea >  .asideMini  .navLinksMini[title = "Home"] > span:last-child{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.contentArea > main{
+    width: 100%;
+    height: 100%;
+    padding: 35px 15px;
+    overflow-y: auto;
+}
+.contentArea > main > .videosContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contentArea > main > .videosContainer > .video{
+    width: 330px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.contentArea > main > .videosContainer > .video > .boxVideo{
+    width: 100%;
+    height: 187px;
+    margin-bottom:12px;
+}
+.contentArea > main > .videosContainer > .video > .boxVideo > img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails{
+    display: flex;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .creatorImg > img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .title{
+    display: flex;
+    flex-direction: column;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .title > a{
+    text-decoration: none;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoTitle{
+    color: #030303;
+    font-size: 1.6rem;
+    max-width: 278px;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-bottom: 4px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoCreator,
+.contentArea > main > .videosContainer > .video > .videoDetails > .title > span{
+    color: rgb(96, 96, 96);
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+.contentArea > main > .videosContainer > .video > .videoDetails > .title > .videoCreator:hover{
+    color: black;
+}
+
+/* Small */
+@media (min-width: 576px) {
+    header > .midSection {
+        margin-left: 1%;
+    }
+    header > .midSection > form {
+        width: 237px;
+        height: 30px;
+    }
+    header > .leftSection > img {
+        width: 80px;
+        padding-left: 2px;
+    }
+    header > .leftSection > span,
+    header > .midSection > .btnMic > span,
+    header > .rightSection > button > span,
+    .contentArea > .asideMini .navLinksMini > span:first-child,
+    .contentArea > .aside .navLinks > span:first-child
+    {
+        font-size: 20px;
+    }       
+    header > .midSection > .btnMic{
+        width: 30px;
+        height: 30px;
+    }
+    header > .rightSection{
+        column-gap: 10px;
+    }
+    header > .rightSection > button {
+        width: 30px;
+        height: 30px;
+    }
+    header > .leftSection > span {
+        padding: 7px;
+    }
+}
+ /* Medium */
+ @media(min-width: 768px){
+    header > .midSection {
+        margin-left: 1%;
+    }
+    header > .midSection > form {
+        width: 358px;
+        height: 34px;
+    }
+    header > .leftSection > img {
+        width: 100px;
+        padding-left: 16px;
+    }
+    header > .midSection > .btnMic{
+        width: 34px;
+        height: 34px;
+    }
+    .contentArea > main > .videosContainer > .video {
+        width: 320px;
+    }
+    header > .leftSection > span {
+        padding: 8px;
+    }
+    header > .rightSection{
+        column-gap: 14px;
+    }
+    header > .rightSection > button {
+        width: 40px;
+        height: 40px;
+    }
+    header > .leftSection > span,
+    header > .midSection > .btnMic > span,
+    header > .rightSection > button > span,
+    .contentArea > .asideMini .navLinksMini > span:first-child,
+    .contentArea > .aside .navLinks > span:first-child
+    {
+        font-size: 26px;
+    } 
+ }
+ /* Large */
+@media(min-width: 992px){
+
+    header > .midSection{
+        margin-left: -9%;
+    }
+    header > .midSection > form {
+        width: 474px;
+        height: 40px;
+    }
+    header > .leftSection > img {
+        width: 120px;
+    }
+    header > .midSection > .btnMic{
+        width: 40px;
+        height: 40px;
+    }
+    .contentArea > main > .videosContainer > .video {
+        width: 330px;
+    }      
+}
+/* Extra large */
+@media (min-width: 1200px) {
+    header > .midSection > form {
+        width: 628px;   
+    }
+}
+
